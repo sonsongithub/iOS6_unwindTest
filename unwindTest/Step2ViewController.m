@@ -19,9 +19,6 @@
 	return NO;
 }
 
-- (IBAction)reset:(UIStoryboardSegue*)sender {
-}
-
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

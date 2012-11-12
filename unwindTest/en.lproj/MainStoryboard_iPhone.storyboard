@@ -144,16 +144,32 @@
                                     <segue destination="6HU-XF-rDS" kind="push" id="UiM-dZ-3YH"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kn-nt-J1d">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9yg-VI-S1Q" kind="unwind" unwindAction="reset:" id="9Fn-0M-5Af"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="OVm-0B-9cN" firstAttribute="leading" secondItem="66l-zR-n24" secondAttribute="leading" constant="64" id="4AP-o9-iXS"/>
                             <constraint firstAttribute="centerY" secondItem="OVm-0B-9cN" secondAttribute="centerY" type="user" id="Cx7-ci-R4Q"/>
-                            <constraint firstItem="OVm-0B-9cN" firstAttribute="centerX" secondItem="66l-zR-n24" secondAttribute="centerX" type="default" id="Xjd-RQ-8KO"/>
+                            <constraint firstItem="0kn-nt-J1d" firstAttribute="baseline" secondItem="OVm-0B-9cN" secondAttribute="baseline" type="default" id="VWC-5b-m4z"/>
+                            <constraint firstAttribute="trailing" secondItem="0kn-nt-J1d" secondAttribute="trailing" constant="63" id="dit-4I-X2x"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Step 3" id="pQn-rd-1k3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cnh-Dj-YGf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="9yg-VI-S1Q" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2056" y="57"/>
         </scene>
@@ -220,12 +236,12 @@
         </class>
         <class className="Step1ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Step1ViewController.h"/>
-        </class>
-        <class className="Step2ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/Step2ViewController.h"/>
             <relationships>
                 <relationship kind="action" name="reset:" candidateClass="UIStoryboardSegue"/>
             </relationships>
+        </class>
+        <class className="Step2ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Step2ViewController.h"/>
         </class>
         <class className="Step3ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Step3ViewController.h"/>

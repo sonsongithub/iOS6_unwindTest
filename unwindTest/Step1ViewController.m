@@ -8,6 +8,9 @@
 
 #import "Step1ViewController.h"
 
+#import "ConfirmViewController.h"
+#import "Step3ViewController.h"
+
 @interface Step1ViewController ()
 
 @end
@@ -16,7 +19,18 @@
 
 - (BOOL)canPerformUnwindSegueAction:(SEL)action fromViewController:(UIViewController *)fromViewController withSender:(id)sender {
 	DNSLogMethod
+	if ([fromViewController isKindOfClass:[Step3ViewController class]])
+		return NO;
+	if ([fromViewController isKindOfClass:[ConfirmViewController class]]) {
+		if ([self respondsToSelector:action]) {
+			return YES;
+		}
+	}
 	return NO;
+}
+
+- (IBAction)reset:(UIStoryboardSegue*)sender {
+	DNSLogMethod
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
