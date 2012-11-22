@@ -1,13 +1,13 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  unwindTest
 //
-//  Created by sonson on 2012/11/12.
+//  Created by sonson on 2012/11/22.
 //  Copyright (c) 2012年 sonson. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RootViewController : UIViewController
 
 @end

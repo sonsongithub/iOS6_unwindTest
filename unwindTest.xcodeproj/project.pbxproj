@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1419B4A4165DF0B70054FB85 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1419B4A3165DF0B70054FB85 /* FirstViewController.m */; };
+		1419B4A7165DF0BF0054FB85 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1419B4A6165DF0BF0054FB85 /* SecondViewController.m */; };
+		1419B4AA165DF0CB0054FB85 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1419B4A9165DF0CB0054FB85 /* ThirdViewController.m */; };
+		1419B4AD165DF1430054FB85 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1419B4AC165DF1430054FB85 /* RootViewController.m */; };
 		1495BF8B1650C9A5009879A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1495BF8A1650C9A5009879A7 /* UIKit.framework */; };
 		1495BF8D1650C9A5009879A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1495BF8C1650C9A5009879A7 /* Foundation.framework */; };
 		1495BF8F1650C9A5009879A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1495BF8E1650C9A5009879A7 /* CoreGraphics.framework */; };
@@ -17,15 +21,17 @@
 		1495BF9F1650C9A5009879A7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1495BF9E1650C9A5009879A7 /* Default@2x.png */; };
 		1495BFA11650C9A5009879A7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1495BFA01650C9A5009879A7 /* Default-568h@2x.png */; };
 		1495BFA41650C9A5009879A7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1495BFA21650C9A5009879A7 /* MainStoryboard_iPhone.storyboard */; };
-		1495BFA71650C9A5009879A7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1495BFA51650C9A5009879A7 /* MainStoryboard_iPad.storyboard */; };
-		1495BFAA1650C9A5009879A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1495BFA91650C9A5009879A7 /* ViewController.m */; };
-		1495BFB21650CC74009879A7 /* Step1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1495BFB11650CC74009879A7 /* Step1ViewController.m */; };
-		1495BFB51650CC7E009879A7 /* Step2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1495BFB41650CC7E009879A7 /* Step2ViewController.m */; };
-		1495BFB81650CCC8009879A7 /* Step3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1495BFB71650CCC8009879A7 /* Step3ViewController.m */; };
-		1495BFBB1650CCDF009879A7 /* ConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1495BFBA1650CCDF009879A7 /* ConfirmViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1419B4A2165DF0B70054FB85 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		1419B4A3165DF0B70054FB85 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		1419B4A5165DF0BF0054FB85 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ../SecondViewController.h; sourceTree = "<group>"; };
+		1419B4A6165DF0BF0054FB85 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ../SecondViewController.m; sourceTree = "<group>"; };
+		1419B4A8165DF0CA0054FB85 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		1419B4A9165DF0CB0054FB85 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		1419B4AB165DF1430054FB85 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1419B4AC165DF1430054FB85 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		1495BF861650C9A5009879A7 /* unwindTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unwindTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1495BF8A1650C9A5009879A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1495BF8C1650C9A5009879A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,17 +46,6 @@
 		1495BF9E1650C9A5009879A7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1495BFA01650C9A5009879A7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1495BFA31650C9A5009879A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		1495BFA61650C9A5009879A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		1495BFA81650C9A5009879A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1495BFA91650C9A5009879A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1495BFB01650CC74009879A7 /* Step1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step1ViewController.h; sourceTree = "<group>"; };
-		1495BFB11650CC74009879A7 /* Step1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step1ViewController.m; sourceTree = "<group>"; };
-		1495BFB31650CC7E009879A7 /* Step2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step2ViewController.h; sourceTree = "<group>"; };
-		1495BFB41650CC7E009879A7 /* Step2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step2ViewController.m; sourceTree = "<group>"; };
-		1495BFB61650CCC8009879A7 /* Step3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step3ViewController.h; sourceTree = "<group>"; };
-		1495BFB71650CCC8009879A7 /* Step3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step3ViewController.m; sourceTree = "<group>"; };
-		1495BFB91650CCDF009879A7 /* ConfirmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmViewController.h; sourceTree = "<group>"; };
-		1495BFBA1650CCDF009879A7 /* ConfirmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +62,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1419B49F165DEDAF0054FB85 /* Push/Pop */ = {
+			isa = PBXGroup;
+			children = (
+				1419B4A2165DF0B70054FB85 /* FirstViewController.h */,
+				1419B4A3165DF0B70054FB85 /* FirstViewController.m */,
+				1419B4A5165DF0BF0054FB85 /* SecondViewController.h */,
+				1419B4A6165DF0BF0054FB85 /* SecondViewController.m */,
+				1419B4A8165DF0CA0054FB85 /* ThirdViewController.h */,
+				1419B4A9165DF0CB0054FB85 /* ThirdViewController.m */,
+			);
+			name = Push/Pop;
+			sourceTree = "<group>";
+		};
+		1419B4A1165DEDBB0054FB85 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				1419B4AB165DF1430054FB85 /* RootViewController.h */,
+				1419B4AC165DF1430054FB85 /* RootViewController.m */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
 		1495BF7B1650C9A5009879A7 = {
 			isa = PBXGroup;
 			children = (
@@ -100,18 +117,9 @@
 				1495BF991650C9A5009879A7 /* AppDelegate.h */,
 				1495BF9A1650C9A5009879A7 /* AppDelegate.m */,
 				1495BFA21650C9A5009879A7 /* MainStoryboard_iPhone.storyboard */,
-				1495BFA51650C9A5009879A7 /* MainStoryboard_iPad.storyboard */,
-				1495BFA81650C9A5009879A7 /* ViewController.h */,
-				1495BFA91650C9A5009879A7 /* ViewController.m */,
+				1419B4A1165DEDBB0054FB85 /* Modal */,
+				1419B49F165DEDAF0054FB85 /* Push/Pop */,
 				1495BF911650C9A5009879A7 /* Supporting Files */,
-				1495BFB01650CC74009879A7 /* Step1ViewController.h */,
-				1495BFB11650CC74009879A7 /* Step1ViewController.m */,
-				1495BFB31650CC7E009879A7 /* Step2ViewController.h */,
-				1495BFB41650CC7E009879A7 /* Step2ViewController.m */,
-				1495BFB61650CCC8009879A7 /* Step3ViewController.h */,
-				1495BFB71650CCC8009879A7 /* Step3ViewController.m */,
-				1495BFB91650CCDF009879A7 /* ConfirmViewController.h */,
-				1495BFBA1650CCDF009879A7 /* ConfirmViewController.m */,
 			);
 			path = unwindTest;
 			sourceTree = "<group>";
@@ -186,7 +194,6 @@
 				1495BF9F1650C9A5009879A7 /* Default@2x.png in Resources */,
 				1495BFA11650C9A5009879A7 /* Default-568h@2x.png in Resources */,
 				1495BFA41650C9A5009879A7 /* MainStoryboard_iPhone.storyboard in Resources */,
-				1495BFA71650C9A5009879A7 /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,11 +206,10 @@
 			files = (
 				1495BF971650C9A5009879A7 /* main.m in Sources */,
 				1495BF9B1650C9A5009879A7 /* AppDelegate.m in Sources */,
-				1495BFAA1650C9A5009879A7 /* ViewController.m in Sources */,
-				1495BFB21650CC74009879A7 /* Step1ViewController.m in Sources */,
-				1495BFB51650CC7E009879A7 /* Step2ViewController.m in Sources */,
-				1495BFB81650CCC8009879A7 /* Step3ViewController.m in Sources */,
-				1495BFBB1650CCDF009879A7 /* ConfirmViewController.m in Sources */,
+				1419B4A4165DF0B70054FB85 /* FirstViewController.m in Sources */,
+				1419B4A7165DF0BF0054FB85 /* SecondViewController.m in Sources */,
+				1419B4AA165DF0CB0054FB85 /* ThirdViewController.m in Sources */,
+				1419B4AD165DF1430054FB85 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,14 +230,6 @@
 				1495BFA31650C9A5009879A7 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		1495BFA51650C9A5009879A7 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1495BFA61650C9A5009879A7 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -297,6 +295,7 @@
 				GCC_PREFIX_HEADER = "unwindTest/unwindTest-Prefix.pch";
 				INFOPLIST_FILE = "unwindTest/unwindTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -308,6 +307,7 @@
 				GCC_PREFIX_HEADER = "unwindTest/unwindTest-Prefix.pch";
 				INFOPLIST_FILE = "unwindTest/unwindTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -331,6 +331,7 @@
 				1495BFAF1650C9A5009879A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
