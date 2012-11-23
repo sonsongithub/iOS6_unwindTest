@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1419B4A4165DF0B70054FB85 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1419B4A3165DF0B70054FB85 /* FirstViewController.m */; };
-		1419B4A7165DF0BF0054FB85 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1419B4A6165DF0BF0054FB85 /* SecondViewController.m */; };
 		1419B4AA165DF0CB0054FB85 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1419B4A9165DF0CB0054FB85 /* ThirdViewController.m */; };
 		1419B4AD165DF1430054FB85 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1419B4AC165DF1430054FB85 /* RootViewController.m */; };
 		1495BF8B1650C9A5009879A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1495BF8A1650C9A5009879A7 /* UIKit.framework */; };
@@ -21,13 +20,13 @@
 		1495BF9F1650C9A5009879A7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1495BF9E1650C9A5009879A7 /* Default@2x.png */; };
 		1495BFA11650C9A5009879A7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1495BFA01650C9A5009879A7 /* Default-568h@2x.png */; };
 		1495BFA41650C9A5009879A7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1495BFA21650C9A5009879A7 /* MainStoryboard_iPhone.storyboard */; };
+		14B6A5E9165EC90C001F48ED /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B6A5E8165EC90C001F48ED /* MyNavigationController.m */; };
+		14E7C84C165ECBF000838B18 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E7C84B165ECBF000838B18 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1419B4A2165DF0B70054FB85 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		1419B4A3165DF0B70054FB85 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		1419B4A5165DF0BF0054FB85 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ../SecondViewController.h; sourceTree = "<group>"; };
-		1419B4A6165DF0BF0054FB85 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ../SecondViewController.m; sourceTree = "<group>"; };
 		1419B4A8165DF0CA0054FB85 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		1419B4A9165DF0CB0054FB85 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		1419B4AB165DF1430054FB85 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -46,6 +45,10 @@
 		1495BF9E1650C9A5009879A7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1495BFA01650C9A5009879A7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1495BFA31650C9A5009879A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		14B6A5E7165EC90C001F48ED /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		14B6A5E8165EC90C001F48ED /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		14E7C84A165ECBF000838B18 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		14E7C84B165ECBF000838B18 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +68,12 @@
 		1419B49F165DEDAF0054FB85 /* Push/Pop */ = {
 			isa = PBXGroup;
 			children = (
+				14B6A5E7165EC90C001F48ED /* MyNavigationController.h */,
+				14B6A5E8165EC90C001F48ED /* MyNavigationController.m */,
 				1419B4A2165DF0B70054FB85 /* FirstViewController.h */,
 				1419B4A3165DF0B70054FB85 /* FirstViewController.m */,
-				1419B4A5165DF0BF0054FB85 /* SecondViewController.h */,
-				1419B4A6165DF0BF0054FB85 /* SecondViewController.m */,
+				14E7C84A165ECBF000838B18 /* SecondViewController.h */,
+				14E7C84B165ECBF000838B18 /* SecondViewController.m */,
 				1419B4A8165DF0CA0054FB85 /* ThirdViewController.h */,
 				1419B4A9165DF0CB0054FB85 /* ThirdViewController.m */,
 			);
@@ -207,9 +212,10 @@
 				1495BF971650C9A5009879A7 /* main.m in Sources */,
 				1495BF9B1650C9A5009879A7 /* AppDelegate.m in Sources */,
 				1419B4A4165DF0B70054FB85 /* FirstViewController.m in Sources */,
-				1419B4A7165DF0BF0054FB85 /* SecondViewController.m in Sources */,
 				1419B4AA165DF0CB0054FB85 /* ThirdViewController.m in Sources */,
 				1419B4AD165DF1430054FB85 /* RootViewController.m in Sources */,
+				14B6A5E9165EC90C001F48ED /* MyNavigationController.m in Sources */,
+				14E7C84C165ECBF000838B18 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

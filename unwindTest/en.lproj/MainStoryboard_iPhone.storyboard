@@ -31,7 +31,6 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="uDz-fy-wqV" secondAttribute="centerY" type="user" id="ASE-Yh-EfK"/>
                             <constraint firstItem="uDz-fy-wqV" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="Uo6-Cw-KtR"/>
                             <constraint firstAttribute="centerY" secondItem="uDz-fy-wqV" secondAttribute="centerY" type="user" id="gus-Ps-lGA"/>
                         </constraints>
@@ -39,12 +38,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="104" y="57"/>
+            <point key="canvasLocation" x="359" y="301"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--My Navigation Controller-->
         <scene sceneID="j38-Oc-Br2">
             <objects>
-                <navigationController definesPresentationContext="YES" id="bm6-zH-j7Z" sceneMemberID="viewController">
+                <navigationController definesPresentationContext="YES" id="bm6-zH-j7Z" customClass="MyNavigationController" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="5h4-eS-bdk">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -54,7 +53,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zk1-o7-VJt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="546" y="57"/>
+            <point key="canvasLocation" x="801" y="301"/>
         </scene>
         <!--First View Controller - First-->
         <scene sceneID="6R0-rk-PA6">
@@ -80,7 +79,6 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="Dvw-1F-9qd" secondAttribute="centerY" type="user" id="10H-AT-KhB"/>
                             <constraint firstItem="Dvw-1F-9qd" firstAttribute="centerX" secondItem="GqU-fB-ZKE" secondAttribute="centerX" type="default" id="SZI-jJ-Q39"/>
                             <constraint firstAttribute="centerY" secondItem="Dvw-1F-9qd" secondAttribute="centerY" type="user" id="yDB-Dt-yOs"/>
                         </constraints>
@@ -96,7 +94,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k6C-8e-8sQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="dJj-ZA-ZaI" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="990" y="57"/>
+            <point key="canvasLocation" x="1245" y="301"/>
         </scene>
         <!--Second View Controller - Second-->
         <scene sceneID="UMt-LZ-Uyu">
@@ -123,7 +121,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wtL-yq-WHh" firstAttribute="centerX" secondItem="V3I-ge-ORG" secondAttribute="centerX" type="default" id="LsI-jj-P1g"/>
-                            <constraint firstAttribute="centerY" secondItem="wtL-yq-WHh" secondAttribute="centerY" type="user" id="kwi-NX-CTO"/>
                             <constraint firstAttribute="centerY" secondItem="wtL-yq-WHh" secondAttribute="centerY" type="user" id="sQ8-Ib-pHV"/>
                         </constraints>
                     </view>
@@ -138,7 +135,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oHC-vk-xcd" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="8sK-3O-ovI" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1428" y="57"/>
+            <point key="canvasLocation" x="1683" y="301"/>
         </scene>
         <!--Third View Controller - Third-->
         <scene sceneID="peL-VZ-8wI">
@@ -179,7 +176,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cnh-Dj-YGf" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="9yg-VI-S1Q" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1872" y="57"/>
+            <point key="canvasLocation" x="2127" y="301"/>
         </scene>
     </scenes>
     <classes>
@@ -188,6 +185,9 @@
             <relationships>
                 <relationship kind="action" name="unwindToFirstViewController:" candidateClass="UIStoryboardSegue"/>
             </relationships>
+        </class>
+        <class className="MyNavigationController" superclassName="UINavigationController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MyNavigationController.h"/>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
